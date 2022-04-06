@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Company</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Página de tarifas de Company Transportation" />
+        <meta name="keywords" content="tarifas, transportes, empresa X" />        
+        <meta name="author" content="Company Transportation" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <!-- CABECERA -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="/" title="Volver a la Home">
+                        <img src="images/logo.png" alt="Company Transportation" />
+                    </a>
+                </div>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="tarifas.html">Tarifas</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- PRINCIPAL -->
+        <main>
+            <div class="container">
+            <h1>Tarifas</h1>
+            <p>A continuación incluimos las tarifas de servicios, etc.</p>
+            <h2>Zonas de envío</h2>
+            <ul>
+                <li><strong>Zona A:</strong> Varias palabras.</li>
+                <li><strong>Zona B:</strong> Varias palabras.
+                    <ol>
+                        <li><strong>Zona B1:</strong>Varias palabras.</li>
+                        <li><strong>Zona B1:</strong>Varias palabras.</li>
+                        <li><strong>Zona B1:</strong>Varias palabras.</li>
+                    </ol>
+                </li>
+                <li><strong>Zona C:</strong> Varias palabras.</li>
+                <li><strong>Zona D:</strong> Varias palabras.</li>
+            </ul>
+
+            <h2>Tabla de tarifas</h2>
+            <table>
+                <tr>
+                    <th>Por Kgr.</th>
+                    <th>Zona A</th>
+                    <th>Zona B</th>
+                    <th>Zona C</th>
+                    <th>Zona D</th>
+                </tr>
+                <tr>
+                    <th>&lt; 24h.</th>
+                    <td>15 €</td>
+                    <td>30 €</td>                
+                    <td>45 €</td>
+                    <td>60 €</td>
+                </tr>
+                <tr>
+                    <th>&gt; 24h.</th>
+                    <td>15 €</td>
+                    <td>30 €</td>                
+                    <td>45 €</td>
+                    <td>60 €</td>
+                </tr>
+                <tr>
+                    <th>48/96 h.</th>
+                    <td>5 €</td>
+                    <td>10 €</td>                
+                    <td colspan="2"><b>15 €</b></td>
+                </tr>
+            </table>
+
+            <h2>Contacto</h2>
+
+            <form action="/contacto" method="post" enctype="multipart/form-data">
+                <label for="name">Nombre y apellidos</label>
+                <input type="text" name="name" id="name" placeholder="Nombre y apellidos" required />
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" name="email" id="email" required />                
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" required></textarea>
+                <label for="documentation">Subir documentación</label>
+                <input type="file" name="documentation" id="documentation">
+                <div class="form-buttons">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>          
+                </div>
+            </form> 
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+            <div class="company">
+                <h3>Company Transportation</h3>
+                <span class="address">Polígono Maluenda...</span>
+            </div>
+            <nav class="rrss">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/fb.png" alt="Facebook" title="Visita nuestro perfil en Facebook"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/twitter.png" alt="Twitter" title="Visita nuestro perfil en Twitter"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/linkedin.png" alt="Linkedin" title="Visita nuestro perfil en Linkedin"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/google.png" alt="Google" title="Visita nuestro perfil en Google"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </footer>
+    </body>
+</html>
